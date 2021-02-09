@@ -1,0 +1,22 @@
+﻿{
+  "responses": [
+    {
+      "code": "Saludo",
+      "type": "simple",
+      "response": [
+        "Hola soy CEO!, el asistente virtual de CEO.COM, ¿en qué puedo ayudarte?",
+        "Bienvenido!, Me llamo CEO, soy el asistente virtual de CEO.COM, ¿en qué puedo ayudarte?"
+      ]
+    },
+    {
+      "code": "Despedida",
+      "type": "simple",
+      "response": [
+        "Hasta luego, recuerda que estaré disponible para atenderte las 24 horas del día",
+        "Adiós, vuelve pronto!",
+        "Nos vemos pronto!",
+        "Hasta luego, espero haberte ayudado!" 
+      ]
+    }
+  ]
+}
