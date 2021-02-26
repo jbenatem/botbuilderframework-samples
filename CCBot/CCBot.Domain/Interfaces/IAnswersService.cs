@@ -8,8 +8,8 @@ namespace CCBot.Domain.Interfaces
 {
     public interface IAnswersService
     {
-        Task SendEcho(ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken);
-        Task SendResponse(string code, ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken);
-        Task Greeting(IList<ChannelAccount> membersAdded, ITurnContext<IConversationUpdateActivity> turnContext, CancellationToken cancellationToken);
+        Task SendEchoAsync(ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken);
+        Task SendResponseAsync(string code, ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken);
+        Task SendGreetingAsync(IList<ChannelAccount> membersAdded, ITurnContext<IConversationUpdateActivity> turnContext, CancellationToken cancellationToken);
     }
 }

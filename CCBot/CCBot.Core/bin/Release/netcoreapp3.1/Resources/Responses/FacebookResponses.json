@@ -1,0 +1,168 @@
+﻿{
+  "responses": [
+    {
+      "code": "saludo_inicial",
+      "messages": [
+        {
+          "type": "quick-replies",
+          "text": [
+            "Hola soy CEO!, el asistente virtual de CEO.COM, ¿en qué puedo ayudarte?",
+            "Bienvenido!, Me llamo CEO, soy el asistente virtual de CEO.COM, ¿en qué puedo ayudarte?"
+          ],
+          "quick_replies": [
+            "Servicios",
+            "Quienes somos",
+            "Contactos"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "Despedida",
+      "messages": [
+        {
+          "type": "simple",
+          "text": [
+            "Hasta luego, recuerda que estaré disponible para atenderte las 24 horas del día",
+            "Adiós, vuelve pronto!",
+            "Nos vemos pronto!",
+            "Hasta luego, espero haberte ayudado!"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "Quienes somos",
+      "messages": [
+        {
+          "type": "quick-replies",
+          "text": [
+            "Somos una empresa dedicada a la consultoría de TI, nos especializamos en las últimas tendencias en tecnología..."
+          ],
+          "quick_replies": [
+            "Nuestro equipo",
+            "Contactos"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "Contactos",
+      "messages": [
+        {
+          "type": "simple",
+          "text": [
+            "Puedes contactarnos mediante los siguientes canales: FB, LinkedIn, Whatsapp..."
+          ]
+        }
+      ]
+    },
+    {
+      "code": "Servicios",
+      "messages": [
+        {
+          "type": "simple",
+          "text": [
+            "Estos son nuestros principales servicios"
+          ]
+        },
+        {
+          "type": "carousel",
+          "cards": [
+            {
+              "type": "generic",
+              "title": "Movilidad",
+              "image": "https://smeconsulting.com.mx/wp-content/uploads/2016/05/blog-sm-dispositivos-moviles-1200x700.jpg",
+              "subtitle": "Explicación genérica sobre este servicio",
+              "buttons": [
+                {
+                  "type": "openUrl",
+                  "title": "Más Info",
+                  "value": "www.google.com"
+                }
+              ]
+            },
+            {
+              "type": "generic",
+              "title": "Big Data",
+              "image": "http://3.bp.blogspot.com/-8bI-MW0_qeA/VHX1egsmEUI/AAAAAAABn_0/LNoYwzRJzW0/s1600/big-data.jpg",
+              "subtitle": "Explicación genérica sobre este servicio",
+              "buttons": [
+                {
+                  "type": "openUrl",
+                  "title": "Más Info",
+                  "value": "www.google.com"
+                }
+              ]
+            },
+            {
+              "type": "generic",
+              "title": "Cloud Computing",
+              "image": "https://www.cloudwyze.com/wp-content/uploads/2018/03/Business-Cloud-Devices-1200x700.jpg",
+              "subtitle": "Explicación genérica sobre este servicio",
+              "buttons": [
+                {
+                  "type": "openUrl",
+                  "title": "Más Info",
+                  "value": "www.google.com"
+                }
+              ]
+            },
+            {
+              "type": "generic",
+              "title": "IOT",
+              "image": "https://archer-soft.com/sites/default/files/image/2020/12/04/archerbloghow-avoid-security-problems-iot-devices.jpg",
+              "subtitle": "Explicación genérica sobre este servicio",
+              "buttons": [
+                {
+                  "type": "openUrl",
+                  "title": "Más Info",
+                  "value": "www.google.com"
+                }
+              ]
+            },
+            {
+              "type": "generic",
+              "title": "Inteligencia Artificial",
+              "image": "https://cdn.vexsoluciones.com/uploads/2018/10/importancia-del-machine-learning1.png",
+              "subtitle": "Explicación genérica sobre este servicio",
+              "buttons": [
+                {
+                  "type": "openUrl",
+                  "title": "Más Info",
+                  "value": "www.google.com"
+                }
+              ]
+            },
+            {
+              "type": "generic",
+              "title": "Transformación Digital",
+              "image": "https://blog.storecheck.com.mx/hubfs/la%20transformacion%20digital%20en%20el%20sector%20retail.jpg",
+              "subtitle": "Explicación genérica sobre este servicio",
+              "buttons": [
+                {
+                  "type": "openUrl",
+                  "title": "Más Info",
+                  "value": "www.google.com"
+                }
+              ]
+            },
+            {
+              "type": "generic",
+              "title": "Capacitaciones",
+              "image": "https://www.elduaien.com/media/uploads/blog/online-courses_blog.jpg",
+              "subtitle": "Explicación genérica sobre este servicio",
+              "buttons": [
+                {
+                  "type": "openUrl",
+                  "title": "Más Info",
+                  "value": "www.google.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

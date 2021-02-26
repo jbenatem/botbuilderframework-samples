@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lYMlKyJukkieFqsbA9HOTa8F5oxcYwVs/ernZ70eA9Yhfomhcu9rJ7tEqyOYPlmA/WR5RWeX0lYiNLmAtr2qkw==",
+  "dgSpecHash": "aFvwqj17Vy3GapTOa5EdqHqHmiLlj/GSVvOL8DFigj0tjQLUjhuogwIx/btj5pCu7t4eOgqn4kLZdJbu1ETRxg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Juan\\OneDrive\\Trabajos\\CEOCOM\\IA\\Chatbots\\CCBot\\CCBot.Answer\\CCBot.Answer.csproj",
+  "projectFilePath": "C:\\Users\\Juan\\Downloads\\chatbot portfolio\\botbuilderframework-samples\\CCBot\\CCBot.Answer\\CCBot.Answer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Juan\\.nuget\\packages\\microsoft.bot.builder\\4.11.1\\microsoft.bot.builder.4.11.1.nupkg.sha512",
     "C:\\Users\\Juan\\.nuget\\packages\\microsoft.bot.connector\\4.11.1\\microsoft.bot.connector.4.11.1.nupkg.sha512",

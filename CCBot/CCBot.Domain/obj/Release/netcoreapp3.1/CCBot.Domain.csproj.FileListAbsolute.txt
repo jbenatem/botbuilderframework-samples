@@ -1,0 +1,9 @@
+C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Domain\bin\Release\netcoreapp3.1\CCBot.Domain.deps.json
+C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Domain\bin\Release\netcoreapp3.1\CCBot.Domain.dll
+C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Domain\bin\Release\netcoreapp3.1\CCBot.Domain.pdb
+C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Domain\obj\Release\netcoreapp3.1\CCBot.Domain.csprojAssemblyReference.cache
+C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Domain\obj\Release\netcoreapp3.1\CCBot.Domain.AssemblyInfoInputs.cache
+C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Domain\obj\Release\netcoreapp3.1\CCBot.Domain.AssemblyInfo.cs
+C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Domain\obj\Release\netcoreapp3.1\CCBot.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Domain\obj\Release\netcoreapp3.1\CCBot.Domain.dll
+C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Domain\obj\Release\netcoreapp3.1\CCBot.Domain.pdb

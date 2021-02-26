@@ -6,6 +6,6 @@ namespace CCBot.Domain.Interfaces
 {
     public interface IAnswersFactory
     {
-        Task SendBotAnswerWebChatMessengerAsync(string answerType, ITurnContext turnContext, CancellationToken cancellationToken);
+        Task SendWebChatResponseAsync(string answerType, ITurnContext turnContext, CancellationToken cancellationToken);
     }
 }

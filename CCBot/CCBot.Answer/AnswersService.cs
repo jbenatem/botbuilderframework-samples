@@ -18,35 +18,37 @@ namespace CCBot.Answer
             _answerFactory = answerFactory;
         }
 
-        public async Task SendEcho(ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken)
+        public async Task SendEchoAsync(ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken)
         {
             var replyText = $"Echo: {turnContext.Activity.Text}";
             await turnContext.SendActivityAsync(MessageFactory.Text(replyText, replyText), cancellationToken);
         }
 
-        public async Task SendResponse(string code, ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken)
+        public async Task SendResponseAsync(string code, ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken)
         {
-            if (turnContext.Activity.ChannelId == "emulator" ||
-                turnContext.Activity.ChannelId == "directline" ||
-                turnContext.Activity.ChannelId == "webchat" ||
-                turnContext.Activity.ChannelId == "messenger")
+            switch (turnContext.Activity.ChannelId)
             {
-                await _answerFactory.SendBotAnswerWebChatMessengerAsync(code, turnContext, cancellationToken);
+                case "facebook":
+                    break;
+                default:
+                    await _answerFactory.SendWebChatResponseAsync(code, turnContext, cancellationToken);
+                    break;
             }
         }
 
-        public async Task Greeting(IList<ChannelAccount> membersAdded, ITurnContext<IConversationUpdateActivity> turnContext, CancellationToken cancellationToken)
+        public async Task SendGreetingAsync(IList<ChannelAccount> membersAdded, ITurnContext<IConversationUpdateActivity> turnContext, CancellationToken cancellationToken)
         {
             foreach (var member in membersAdded)
-            {
+            {                
                 if (member.Id != turnContext.Activity.Recipient.Id)
                 {
-                    if (turnContext.Activity.ChannelId == "emulator" ||
-                        turnContext.Activity.ChannelId == "directline" ||
-                        turnContext.Activity.ChannelId == "webchat" ||
-                        turnContext.Activity.ChannelId == "messenger")
+                    switch (turnContext.Activity.ChannelId)
                     {
-                        await _answerFactory.SendBotAnswerWebChatMessengerAsync("saludo_inicial", turnContext, cancellationToken);
+                        case "facebook":
+                            break;
+                        default:
+                            await _answerFactory.SendWebChatResponseAsync("saludo_inicial", turnContext, cancellationToken);
+                            break;
                     }
                 }
             }

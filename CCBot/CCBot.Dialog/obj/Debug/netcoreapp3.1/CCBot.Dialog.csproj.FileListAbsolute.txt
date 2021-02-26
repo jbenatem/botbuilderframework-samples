@@ -1,0 +1,4 @@
+C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Dialog\obj\Debug\netcoreapp3.1\CCBot.Dialog.csprojAssemblyReference.cache
+C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Dialog\obj\Debug\netcoreapp3.1\CCBot.Dialog.AssemblyInfoInputs.cache
+C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Dialog\obj\Debug\netcoreapp3.1\CCBot.Dialog.AssemblyInfo.cs
+C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Dialog\obj\Debug\netcoreapp3.1\CCBot.Dialog.csproj.CoreCompileInputs.cache

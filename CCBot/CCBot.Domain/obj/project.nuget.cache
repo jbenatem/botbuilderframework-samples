@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uWacD8UBe5+h+o5z/qUP/+/K6W/JuW4dGEO2T5xIWbJfyc49B+KN2gU2KegsKQYgZwczl5ZNk2/E/dfw5ADjMw==",
+  "dgSpecHash": "C+Efkvu4WaLo11RiChTGpLkEZhs8fAKIqXvW7two4Rbu483f5elgxieP+iUGbigmYOwjHkPRTVtEPawDT4CTZg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Juan\\OneDrive\\Trabajos\\CEOCOM\\IA\\Chatbots\\CCBot\\CCBot.Domain\\CCBot.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Juan\\Downloads\\chatbot portfolio\\botbuilderframework-samples\\CCBot\\CCBot.Domain\\CCBot.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Juan\\.nuget\\packages\\microsoft.bot.builder\\4.11.1\\microsoft.bot.builder.4.11.1.nupkg.sha512",
     "C:\\Users\\Juan\\.nuget\\packages\\microsoft.bot.connector\\4.11.1\\microsoft.bot.connector.4.11.1.nupkg.sha512",

@@ -6232,11 +6232,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Juan\\OneDrive\\Trabajos\\CEOCOM\\IA\\Chatbots\\CCBot\\CCBot.Answer\\CCBot.Answer.csproj",
+      "projectUniqueName": "C:\\Users\\Juan\\Downloads\\chatbot portfolio\\botbuilderframework-samples\\CCBot\\CCBot.Answer\\CCBot.Answer.csproj",
       "projectName": "CCBot.Answer",
-      "projectPath": "C:\\Users\\Juan\\OneDrive\\Trabajos\\CEOCOM\\IA\\Chatbots\\CCBot\\CCBot.Answer\\CCBot.Answer.csproj",
+      "projectPath": "C:\\Users\\Juan\\Downloads\\chatbot portfolio\\botbuilderframework-samples\\CCBot\\CCBot.Answer\\CCBot.Answer.csproj",
       "packagesPath": "C:\\Users\\Juan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Juan\\OneDrive\\Trabajos\\CEOCOM\\IA\\Chatbots\\CCBot\\CCBot.Answer\\obj\\",
+      "outputPath": "C:\\Users\\Juan\\Downloads\\chatbot portfolio\\botbuilderframework-samples\\CCBot\\CCBot.Answer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Juan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6252,8 +6252,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Juan\\OneDrive\\Trabajos\\CEOCOM\\IA\\Chatbots\\CCBot\\CCBot.Domain\\CCBot.Domain.csproj": {
-              "projectPath": "C:\\Users\\Juan\\OneDrive\\Trabajos\\CEOCOM\\IA\\Chatbots\\CCBot\\CCBot.Domain\\CCBot.Domain.csproj"
+            "C:\\Users\\Juan\\Downloads\\chatbot portfolio\\botbuilderframework-samples\\CCBot\\CCBot.Domain\\CCBot.Domain.csproj": {
+              "projectPath": "C:\\Users\\Juan\\Downloads\\chatbot portfolio\\botbuilderframework-samples\\CCBot\\CCBot.Domain\\CCBot.Domain.csproj"
             }
           }
         }

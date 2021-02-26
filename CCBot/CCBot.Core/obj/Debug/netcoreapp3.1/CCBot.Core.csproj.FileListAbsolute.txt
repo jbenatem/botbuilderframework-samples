@@ -12,6 +12,9 @@ C:\Users\Juan\OneDrive\Proyectos\C#\CEOCOM\CCBot\CCBot.Core\obj\Debug\netcoreapp
 C:\Users\Juan\OneDrive\Proyectos\C#\CEOCOM\CCBot\CCBot.Core\obj\Debug\netcoreapp3.1\CCBot.Core.csproj.CopyComplete
 C:\Users\Juan\OneDrive\Proyectos\C#\CEOCOM\CCBot\CCBot.Core\obj\Debug\netcoreapp3.1\CCBot.Core.dll
 C:\Users\Juan\OneDrive\Proyectos\C#\CEOCOM\CCBot\CCBot.Core\obj\Debug\netcoreapp3.1\CCBot.Core.pdb
+C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Core\bin\Debug\netcoreapp3.1\Resources\Responses\FacebookResponses.json
+C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Core\bin\Debug\netcoreapp3.1\Resources\Responses\WhatsappResponses.json
+C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Core\bin\Debug\netcoreapp3.1\Resources\Responses\WebChatResponses.json
 C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Core\bin\Debug\netcoreapp3.1\CCBot.Core.deps.json
 C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Core\bin\Debug\netcoreapp3.1\CCBot.Core.dll
 C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Core\bin\Debug\netcoreapp3.1\CCBot.Core.pdb
@@ -26,5 +29,3 @@ C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Core\obj\Debug\ne
 C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Core\obj\Debug\netcoreapp3.1\CCBot.Core.csproj.CopyComplete
 C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Core\obj\Debug\netcoreapp3.1\CCBot.Core.dll
 C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Core\obj\Debug\netcoreapp3.1\CCBot.Core.pdb
-C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Core\bin\Debug\netcoreapp3.1\Resources\Answers\BotResponses.json
-C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Core\bin\Debug\netcoreapp3.1\Resources\Answers\BotResponsesWhatsapp.json

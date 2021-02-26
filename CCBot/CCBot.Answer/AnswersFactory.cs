@@ -15,9 +15,9 @@ namespace CCBot.Answer
 {
     public class AnswersFactory : IAnswersFactory
     {
-        public async Task SendBotAnswerWebChatMessengerAsync(string code, ITurnContext turnContext, CancellationToken cancellationToken)
+        public async Task SendWebChatResponseAsync(string code, ITurnContext turnContext, CancellationToken cancellationToken)
         {
-            using (var stream = GetType().Assembly.GetManifestResourceStream("CCBot.Answer.Resources.Answers.BotResponses.json"))
+            using (var stream = GetType().Assembly.GetManifestResourceStream("CCBot.Answer.Resources.Responses.WebChatResponses.json"))
             {
                 using (var reader = new StreamReader(stream))
                 {

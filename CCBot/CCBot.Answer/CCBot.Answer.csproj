@@ -5,15 +5,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Resources\Answers\BotResponses.json" />
-    <None Remove="Resources\Answers\BotResponsesWhatsapp.json" />
+    <None Remove="Resources\Responses\FacebookResponses.json" />
+    <None Remove="Resources\Responses\WebChatResponses.json" />
+    <None Remove="Resources\Responses\WhatsappResponses.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Resources\Answers\BotResponsesWhatsapp.json">
+    <EmbeddedResource Include="Resources\Responses\FacebookResponses.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Answers\BotResponses.json">
+    <EmbeddedResource Include="Resources\Responses\WhatsappResponses.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Responses\WebChatResponses.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
