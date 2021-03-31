@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CCBot.Answer", "CCBot.Answe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CCBot.Domain", "CCBot.Domain\CCBot.Domain.csproj", "{9A3062D2-3476-49DE-8AA4-392B77AFB80C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CCBot.Dialog", "CCBot.Dialog\CCBot.Dialog.csproj", "{D5F3E208-8281-4E84-AD59-F6331492D2EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CCBot.Dialogs", "CCBot.Dialog\CCBot.Dialogs.csproj", "{D5F3E208-8281-4E84-AD59-F6331492D2EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

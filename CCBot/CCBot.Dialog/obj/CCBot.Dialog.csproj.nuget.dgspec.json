@@ -1,17 +1,79 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Juan\\Downloads\\chatbot portfolio\\botbuilderframework-samples\\CCBot\\CCBot.Dialog\\CCBot.Dialog.csproj": {}
+    "C:\\Users\\Juan\\OneDrive\\Proyectos\\C#\\botbuilderframework-samples\\CCBot\\CCBot.Dialog\\CCBot.Dialog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Juan\\Downloads\\chatbot portfolio\\botbuilderframework-samples\\CCBot\\CCBot.Dialog\\CCBot.Dialog.csproj": {
+    "C:\\Users\\Juan\\OneDrive\\Proyectos\\C#\\botbuilderframework-samples\\CCBot\\CCBot.Dialog\\CCBot.Dialog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juan\\Downloads\\chatbot portfolio\\botbuilderframework-samples\\CCBot\\CCBot.Dialog\\CCBot.Dialog.csproj",
+        "projectUniqueName": "C:\\Users\\Juan\\OneDrive\\Proyectos\\C#\\botbuilderframework-samples\\CCBot\\CCBot.Dialog\\CCBot.Dialog.csproj",
         "projectName": "CCBot.Dialog",
-        "projectPath": "C:\\Users\\Juan\\Downloads\\chatbot portfolio\\botbuilderframework-samples\\CCBot\\CCBot.Dialog\\CCBot.Dialog.csproj",
+        "projectPath": "C:\\Users\\Juan\\OneDrive\\Proyectos\\C#\\botbuilderframework-samples\\CCBot\\CCBot.Dialog\\CCBot.Dialog.csproj",
         "packagesPath": "C:\\Users\\Juan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juan\\Downloads\\chatbot portfolio\\botbuilderframework-samples\\CCBot\\CCBot.Dialog\\obj\\",
+        "outputPath": "C:\\Users\\Juan\\OneDrive\\Proyectos\\C#\\botbuilderframework-samples\\CCBot\\CCBot.Dialog\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Juan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Juan\\OneDrive\\Proyectos\\C#\\botbuilderframework-samples\\CCBot\\CCBot.Domain\\CCBot.Domain.csproj": {
+                "projectPath": "C:\\Users\\Juan\\OneDrive\\Proyectos\\C#\\botbuilderframework-samples\\CCBot\\CCBot.Domain\\CCBot.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Bot.Builder.Dialogs": {
+              "target": "Package",
+              "version": "[4.12.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Juan\\OneDrive\\Proyectos\\C#\\botbuilderframework-samples\\CCBot\\CCBot.Domain\\CCBot.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Juan\\OneDrive\\Proyectos\\C#\\botbuilderframework-samples\\CCBot\\CCBot.Domain\\CCBot.Domain.csproj",
+        "projectName": "CCBot.Domain",
+        "projectPath": "C:\\Users\\Juan\\OneDrive\\Proyectos\\C#\\botbuilderframework-samples\\CCBot\\CCBot.Domain\\CCBot.Domain.csproj",
+        "packagesPath": "C:\\Users\\Juan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Juan\\OneDrive\\Proyectos\\C#\\botbuilderframework-samples\\CCBot\\CCBot.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Juan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,9 +100,13 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.Bot.Builder": {
+              "target": "Package",
+              "version": "[4.12.2, )"
+            },
             "Microsoft.Bot.Builder.Dialogs": {
               "target": "Package",
-              "version": "[4.11.1, )"
+              "version": "[4.12.2, )"
             }
           },
           "imports": [

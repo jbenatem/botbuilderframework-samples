@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Juan\\Downloads\\chatbot portfolio\\botbuilderframework-samples\\CCBot\\CCBot.Domain\\CCBot.Domain.csproj": {}
+    "C:\\Users\\Juan\\OneDrive\\Proyectos\\C#\\botbuilderframework-samples\\CCBot\\CCBot.Domain\\CCBot.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Juan\\Downloads\\chatbot portfolio\\botbuilderframework-samples\\CCBot\\CCBot.Domain\\CCBot.Domain.csproj": {
+    "C:\\Users\\Juan\\OneDrive\\Proyectos\\C#\\botbuilderframework-samples\\CCBot\\CCBot.Domain\\CCBot.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juan\\Downloads\\chatbot portfolio\\botbuilderframework-samples\\CCBot\\CCBot.Domain\\CCBot.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Juan\\OneDrive\\Proyectos\\C#\\botbuilderframework-samples\\CCBot\\CCBot.Domain\\CCBot.Domain.csproj",
         "projectName": "CCBot.Domain",
-        "projectPath": "C:\\Users\\Juan\\Downloads\\chatbot portfolio\\botbuilderframework-samples\\CCBot\\CCBot.Domain\\CCBot.Domain.csproj",
+        "projectPath": "C:\\Users\\Juan\\OneDrive\\Proyectos\\C#\\botbuilderframework-samples\\CCBot\\CCBot.Domain\\CCBot.Domain.csproj",
         "packagesPath": "C:\\Users\\Juan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juan\\Downloads\\chatbot portfolio\\botbuilderframework-samples\\CCBot\\CCBot.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Juan\\OneDrive\\Proyectos\\C#\\botbuilderframework-samples\\CCBot\\CCBot.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Juan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,7 +40,11 @@
           "dependencies": {
             "Microsoft.Bot.Builder": {
               "target": "Package",
-              "version": "[4.11.1, )"
+              "version": "[4.12.2, )"
+            },
+            "Microsoft.Bot.Builder.Dialogs": {
+              "target": "Package",
+              "version": "[4.12.2, )"
             }
           },
           "imports": [

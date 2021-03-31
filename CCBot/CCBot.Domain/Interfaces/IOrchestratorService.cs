@@ -1,4 +1,5 @@
 ﻿using Microsoft.Bot.Builder;
+using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Schema;
 using System.Collections.Generic;
 using System.Threading;
@@ -8,7 +9,7 @@ namespace CCBot.Domain.Interfaces
 {
     public interface IOrchestratorService
     {
-        Task SendBotAnswer(ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken);
+        Task SendBotAnswer(Dialog dialog, ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken);
         Task SendBotGreeting(IList<ChannelAccount> membersAdded, ITurnContext<IConversationUpdateActivity> turnContext, CancellationToken cancellationToken);
     }
 }

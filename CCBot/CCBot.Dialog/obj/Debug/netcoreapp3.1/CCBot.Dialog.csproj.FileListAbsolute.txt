@@ -2,3 +2,15 @@ C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Dialog\obj\Debug\
 C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Dialog\obj\Debug\netcoreapp3.1\CCBot.Dialog.AssemblyInfoInputs.cache
 C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Dialog\obj\Debug\netcoreapp3.1\CCBot.Dialog.AssemblyInfo.cs
 C:\Users\Juan\OneDrive\Trabajos\CEOCOM\IA\Chatbots\CCBot\CCBot.Dialog\obj\Debug\netcoreapp3.1\CCBot.Dialog.csproj.CoreCompileInputs.cache
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\CCBot\CCBot.Dialog\bin\Debug\netcoreapp3.1\CCBot.Dialog.deps.json
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\CCBot\CCBot.Dialog\bin\Debug\netcoreapp3.1\CCBot.Dialog.dll
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\CCBot\CCBot.Dialog\bin\Debug\netcoreapp3.1\CCBot.Dialog.pdb
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\CCBot\CCBot.Dialog\obj\Debug\netcoreapp3.1\CCBot.Dialog.csprojAssemblyReference.cache
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\CCBot\CCBot.Dialog\obj\Debug\netcoreapp3.1\CCBot.Dialog.AssemblyInfoInputs.cache
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\CCBot\CCBot.Dialog\obj\Debug\netcoreapp3.1\CCBot.Dialog.AssemblyInfo.cs
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\CCBot\CCBot.Dialog\obj\Debug\netcoreapp3.1\CCBot.Dialog.csproj.CoreCompileInputs.cache
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\CCBot\CCBot.Dialog\obj\Debug\netcoreapp3.1\CCBot.Dialog.dll
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\CCBot\CCBot.Dialog\obj\Debug\netcoreapp3.1\CCBot.Dialog.pdb
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\CCBot\CCBot.Dialog\bin\Debug\netcoreapp3.1\CCBot.Domain.dll
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\CCBot\CCBot.Dialog\bin\Debug\netcoreapp3.1\CCBot.Domain.pdb
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\CCBot\CCBot.Dialog\obj\Debug\netcoreapp3.1\CCBot.Dialog.csproj.CopyComplete

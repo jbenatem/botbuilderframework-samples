@@ -1,13 +1,14 @@
-﻿using Microsoft.Bot.Builder;
+﻿using CCBot.Domain.Model;
+using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Dialogs;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CCBot.Dialog.Dialogs
+namespace CCBot.Dialogs.MeetingReservation
 {
-    public class MainDialog : ComponentDialog
+    public class MeetingReservationDialog : ComponentDialog
     {
-        public MainDialog() : base(nameof(MainDialog))
+        public MeetingReservationDialog() : base(nameof(MeetingReservationDialog))
         {
             AddDialog(new TextPrompt(nameof(TextPrompt)));
             AddDialog(new WaterfallDialog(nameof(WaterfallDialog), new WaterfallStep[]
@@ -23,14 +24,24 @@ namespace CCBot.Dialog.Dialogs
 
         private async Task<DialogTurnResult> IntroStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
-            var promptMessage = MessageFactory.Text("Ingresa tu nombre");
-            return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);
+            var user = (User)stepContext.Options;
+            if (user.Name == null)
+            {
+                var promptMessage = MessageFactory.Text("Ingresa tu nombre");
+                return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);
+            }
+            return await stepContext.NextAsync(user.Name, cancellationToken);
         }
 
         private async Task<DialogTurnResult> ActStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
-            var promptMessage = MessageFactory.Text("Ingresa tu número de contacto");
-            return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);
+            var user = (User)stepContext.Options;
+            if (user.ContactNumber == null)
+            {
+                var promptMessage = MessageFactory.Text("Ingresa tu número de contacto");
+                return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);
+            }
+            return await stepContext.NextAsync(user.ContactNumber, cancellationToken);
         }
 
         private async Task<DialogTurnResult> FinalStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)

@@ -9,15 +9,16 @@
       "CCBot.Core/1.0.0": {
         "dependencies": {
           "CCBot.Answer": "1.0.0",
+          "CCBot.Dialogs": "1.0.0",
           "CCBot.Domain": "1.0.0",
-          "Microsoft.Bot.Builder.AI.Luis": "4.11.1",
-          "Microsoft.Bot.Builder.AI.QnA": "4.11.1"
+          "Microsoft.Bot.Builder.AI.Luis": "4.12.2",
+          "Microsoft.Bot.Builder.AI.QnA": "4.12.2"
         },
         "runtime": {
           "CCBot.Core.dll": {}
         }
       },
-      "AdaptiveExpressions/4.11.1": {
+      "AdaptiveExpressions/4.12.2": {
         "dependencies": {
           "Antlr4.Runtime.Standard": "4.8.0",
           "Microsoft.CSharp": "4.5.0",
@@ -26,8 +27,8 @@
         },
         "runtime": {
           "lib/netstandard2.0/AdaptiveExpressions.dll": {
-            "assemblyVersion": "4.11.1.0",
-            "fileVersion": "4.11.1.0"
+            "assemblyVersion": "4.12.2.0",
+            "fileVersion": "4.12.2.0"
           }
         }
       },
@@ -56,93 +57,94 @@
           }
         }
       },
-      "Microsoft.Bot.Builder/4.11.1": {
+      "Microsoft.Bot.Builder/4.12.2": {
         "dependencies": {
-          "Microsoft.Bot.Connector": "4.11.1",
-          "Microsoft.Bot.Streaming": "4.11.1",
+          "Microsoft.Bot.Connector": "4.12.2",
+          "Microsoft.Bot.Streaming": "4.12.2",
           "Microsoft.Extensions.Logging": "2.1.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Bot.Builder.dll": {
-            "assemblyVersion": "4.11.1.0",
-            "fileVersion": "4.11.1.0"
+            "assemblyVersion": "4.12.2.0",
+            "fileVersion": "4.12.2.0"
           }
         }
       },
-      "Microsoft.Bot.Builder.AI.Luis/4.11.1": {
+      "Microsoft.Bot.Builder.AI.Luis/4.12.2": {
         "dependencies": {
           "Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime": "2.1.0",
-          "Microsoft.Bot.Builder.Dialogs.Declarative": "4.11.1",
-          "Microsoft.Bot.Configuration": "4.11.1",
+          "Microsoft.Bot.Builder.Dialogs.Declarative": "4.12.2",
+          "Microsoft.Bot.Configuration": "4.12.2",
           "Microsoft.Extensions.Configuration": "2.1.0",
           "Microsoft.Extensions.Configuration.Json": "2.1.0",
           "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Bot.Builder.AI.Luis.dll": {
-            "assemblyVersion": "4.11.1.0",
-            "fileVersion": "4.11.1.0"
+            "assemblyVersion": "4.12.2.0",
+            "fileVersion": "4.12.2.0"
           }
         }
       },
-      "Microsoft.Bot.Builder.AI.QnA/4.11.1": {
+      "Microsoft.Bot.Builder.AI.QnA/4.12.2": {
         "dependencies": {
-          "AdaptiveExpressions": "4.11.1",
-          "Microsoft.Bot.Builder": "4.11.1",
-          "Microsoft.Bot.Builder.Dialogs.Declarative": "4.11.1",
-          "Microsoft.Bot.Configuration": "4.11.1",
+          "AdaptiveExpressions": "4.12.2",
+          "Microsoft.Bot.Builder": "4.12.2",
+          "Microsoft.Bot.Builder.Dialogs.Declarative": "4.12.2",
+          "Microsoft.Bot.Configuration": "4.12.2",
           "Microsoft.Extensions.Configuration": "2.1.0",
           "Microsoft.Extensions.Configuration.Json": "2.1.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Bot.Builder.AI.QnA.dll": {
-            "assemblyVersion": "4.11.1.0",
-            "fileVersion": "4.11.1.0"
+            "assemblyVersion": "4.12.2.0",
+            "fileVersion": "4.12.2.0"
           }
         }
       },
-      "Microsoft.Bot.Builder.Dialogs/4.11.1": {
+      "Microsoft.Bot.Builder.Dialogs/4.12.2": {
         "dependencies": {
-          "Microsoft.Bot.Builder": "4.11.1",
+          "Microsoft.Bot.Builder": "4.12.2",
           "Microsoft.Recognizers.Text.Choice": "1.2.9",
           "Microsoft.Recognizers.Text.DateTime": "1.2.9"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Bot.Builder.Dialogs.dll": {
-            "assemblyVersion": "4.11.1.0",
-            "fileVersion": "4.11.1.0"
+            "assemblyVersion": "4.12.2.0",
+            "fileVersion": "4.12.2.0"
           }
         }
       },
-      "Microsoft.Bot.Builder.Dialogs.Declarative/4.11.1": {
+      "Microsoft.Bot.Builder.Dialogs.Declarative/4.12.2": {
         "dependencies": {
-          "AdaptiveExpressions": "4.11.1",
-          "Microsoft.Bot.Builder.Dialogs": "4.11.1",
+          "AdaptiveExpressions": "4.12.2",
+          "Microsoft.Bot.Builder.Dialogs": "4.12.2",
           "Newtonsoft.Json": "12.0.3",
           "NuGet.Packaging": "5.5.1"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Bot.Builder.Dialogs.Declarative.dll": {
-            "assemblyVersion": "4.11.1.0",
-            "fileVersion": "4.11.1.0"
+            "assemblyVersion": "4.12.2.0",
+            "fileVersion": "4.12.2.0"
           }
         }
       },
-      "Microsoft.Bot.Configuration/4.11.1": {
+      "Microsoft.Bot.Configuration/4.12.2": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Bot.Configuration.dll": {
-            "assemblyVersion": "4.11.1.0",
-            "fileVersion": "4.11.1.0"
+            "assemblyVersion": "4.12.2.0",
+            "fileVersion": "4.12.2.0"
           }
         }
       },
-      "Microsoft.Bot.Connector/4.11.1": {
+      "Microsoft.Bot.Connector/4.12.2": {
         "dependencies": {
-          "Microsoft.Bot.Schema": "4.11.1",
+          "Microsoft.Bot.Schema": "4.12.2",
+          "Microsoft.Extensions.Http": "2.1.0",
           "Microsoft.Extensions.Logging": "2.1.0",
           "Microsoft.IdentityModel.Clients.ActiveDirectory": "5.2.4",
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.6.0",
@@ -151,23 +153,23 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Bot.Connector.dll": {
-            "assemblyVersion": "4.11.1.0",
-            "fileVersion": "4.11.1.0"
+            "assemblyVersion": "4.12.2.0",
+            "fileVersion": "4.12.2.0"
           }
         }
       },
-      "Microsoft.Bot.Schema/4.11.1": {
+      "Microsoft.Bot.Schema/4.12.2": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Bot.Schema.dll": {
-            "assemblyVersion": "4.11.1.0",
-            "fileVersion": "4.11.1.0"
+            "assemblyVersion": "4.12.2.0",
+            "fileVersion": "4.12.2.0"
           }
         }
       },
-      "Microsoft.Bot.Streaming/4.11.1": {
+      "Microsoft.Bot.Streaming/4.12.2": {
         "dependencies": {
           "Microsoft.Extensions.Logging": "2.1.0",
           "Microsoft.Net.Http.Headers": "2.1.0",
@@ -175,8 +177,8 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Bot.Streaming.dll": {
-            "assemblyVersion": "4.11.1.0",
-            "fileVersion": "4.11.1.0"
+            "assemblyVersion": "4.12.2.0",
+            "fileVersion": "4.12.2.0"
           }
         }
       },
@@ -273,6 +275,19 @@
       "Microsoft.Extensions.FileSystemGlobbing/2.1.0": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18136"
+          }
+        }
+      },
+      "Microsoft.Extensions.Http/2.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0",
+          "Microsoft.Extensions.Logging": "2.1.0",
+          "Microsoft.Extensions.Options": "2.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
             "assemblyVersion": "2.1.0.0",
             "fileVersion": "2.1.0.18136"
           }
@@ -1486,9 +1501,19 @@
           "CCBot.Answer.dll": {}
         }
       },
+      "CCBot.Dialogs/1.0.0": {
+        "dependencies": {
+          "CCBot.Domain": "1.0.0",
+          "Microsoft.Bot.Builder.Dialogs": "4.12.2"
+        },
+        "runtime": {
+          "CCBot.Dialogs.dll": {}
+        }
+      },
       "CCBot.Domain/1.0.0": {
         "dependencies": {
-          "Microsoft.Bot.Builder": "4.11.1"
+          "Microsoft.Bot.Builder": "4.12.2",
+          "Microsoft.Bot.Builder.Dialogs": "4.12.2"
         },
         "runtime": {
           "CCBot.Domain.dll": {}
@@ -1502,12 +1527,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AdaptiveExpressions/4.11.1": {
+    "AdaptiveExpressions/4.12.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ajiuMb/Ir9zLA9OKZFjwYBvXIxc9thGWyCu1tvUaRkEubCSxh9Gg77GCOtlYIXn2Tb7YAKukGV97J9Ak/Dn1mA==",
-      "path": "adaptiveexpressions/4.11.1",
-      "hashPath": "adaptiveexpressions.4.11.1.nupkg.sha512"
+      "sha512": "sha512-aHuhKiPwqciXnDhCVdCqt9Yqge7a4wdQUboUUKVWverJdAjGP5bcwpzucytpPhP3lD5DvyEnBDiuG268cnqPtw==",
+      "path": "adaptiveexpressions/4.12.2",
+      "hashPath": "adaptiveexpressions.4.12.2.nupkg.sha512"
     },
     "Antlr4.Runtime.Standard/4.8.0": {
       "type": "package",
@@ -1523,68 +1548,68 @@
       "path": "microsoft.azure.cognitiveservices.language.luis.runtime/2.1.0",
       "hashPath": "microsoft.azure.cognitiveservices.language.luis.runtime.2.1.0.nupkg.sha512"
     },
-    "Microsoft.Bot.Builder/4.11.1": {
+    "Microsoft.Bot.Builder/4.12.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-FsL66refY+hCox+mM1vrJnoQNHmSspk8mKR0vnIgfxqVK5qm66md0OPF3/Q/E5WeGcQEZD8MrPDkEMCrWeNetQ==",
-      "path": "microsoft.bot.builder/4.11.1",
-      "hashPath": "microsoft.bot.builder.4.11.1.nupkg.sha512"
+      "sha512": "sha512-hhBvs12FTYQc+k+HQz2zSITICfQir6xAVYtMEGBJo+p63e0x8vNM3mKqBvgrJKt1k/UIlFMUaYGOXeGx9m4daA==",
+      "path": "microsoft.bot.builder/4.12.2",
+      "hashPath": "microsoft.bot.builder.4.12.2.nupkg.sha512"
     },
-    "Microsoft.Bot.Builder.AI.Luis/4.11.1": {
+    "Microsoft.Bot.Builder.AI.Luis/4.12.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cTPPEdiG3m775U4SGNC8FmBeeaky1XV53hzV/ZQn06bm5tyhziugYPlPd5LyiOMOHV+CcxcpvCfmZIIz7Jb31A==",
-      "path": "microsoft.bot.builder.ai.luis/4.11.1",
-      "hashPath": "microsoft.bot.builder.ai.luis.4.11.1.nupkg.sha512"
+      "sha512": "sha512-+IGCyZNAHTXM/NJDvLOi+LBo9y2T422LrkUxFCXFYu+ji7CcPRIv+iRD5ZbPEpH8YgV5vzlhqLQIyrEF8G8l4Q==",
+      "path": "microsoft.bot.builder.ai.luis/4.12.2",
+      "hashPath": "microsoft.bot.builder.ai.luis.4.12.2.nupkg.sha512"
     },
-    "Microsoft.Bot.Builder.AI.QnA/4.11.1": {
+    "Microsoft.Bot.Builder.AI.QnA/4.12.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cvHv7/C7wsq4tsV6Gl2Khnp7NjLta0Ou2SCCw23jGvppgGaQx1u/uBFrevKLod7B64gPheMGYvT2w6Ld98LYsw==",
-      "path": "microsoft.bot.builder.ai.qna/4.11.1",
-      "hashPath": "microsoft.bot.builder.ai.qna.4.11.1.nupkg.sha512"
+      "sha512": "sha512-i9lj7YH8eeweO+/a+OQyI5FHJUhqDL2oGsM+FKQE/ZOg0UZcWaKjNe09gcZG8SJGLsvb0cg+m986FAvnTu6ZGw==",
+      "path": "microsoft.bot.builder.ai.qna/4.12.2",
+      "hashPath": "microsoft.bot.builder.ai.qna.4.12.2.nupkg.sha512"
     },
-    "Microsoft.Bot.Builder.Dialogs/4.11.1": {
+    "Microsoft.Bot.Builder.Dialogs/4.12.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-BD4yzixSCH9RyTwXZrCfJeN1i2jPJCW1a/qAtW4XCfxm5LRgCBmaqk2FfgiQm2E+OtslgG1+NjK8CveALby07g==",
-      "path": "microsoft.bot.builder.dialogs/4.11.1",
-      "hashPath": "microsoft.bot.builder.dialogs.4.11.1.nupkg.sha512"
+      "sha512": "sha512-Lf0bymB797Sm7BSSosNowRZrVi4M6krx2TiGTuccdOvm+frh1QccfnzsHmUY0qWBY8r4/r7LUQSLVwRRjOMjCw==",
+      "path": "microsoft.bot.builder.dialogs/4.12.2",
+      "hashPath": "microsoft.bot.builder.dialogs.4.12.2.nupkg.sha512"
     },
-    "Microsoft.Bot.Builder.Dialogs.Declarative/4.11.1": {
+    "Microsoft.Bot.Builder.Dialogs.Declarative/4.12.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2NOnpc1RW7ZjuS7o7CfwCg+DqrDFlxWp+QV0/nPIbaDLkDajASRPtmHbNlSiYQ23aKQdKfaxrjnOeTepTw59EA==",
-      "path": "microsoft.bot.builder.dialogs.declarative/4.11.1",
-      "hashPath": "microsoft.bot.builder.dialogs.declarative.4.11.1.nupkg.sha512"
+      "sha512": "sha512-hTPS23qJft6LbWatFO3iuChGJw8EA6F9mp5pnef+T0sNuXWI1EJjBRxQrIAfGdGOBRlxqj5DjXkRBNmH8YoK6A==",
+      "path": "microsoft.bot.builder.dialogs.declarative/4.12.2",
+      "hashPath": "microsoft.bot.builder.dialogs.declarative.4.12.2.nupkg.sha512"
     },
-    "Microsoft.Bot.Configuration/4.11.1": {
+    "Microsoft.Bot.Configuration/4.12.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dqw8LjivX/LtrF4D2d5wtxQjbDBPbi16Xm5+TVPflmnECRtjrng5qt6Qyqsz2jzGytOE3PV9jMpKWmtcYIEWmQ==",
-      "path": "microsoft.bot.configuration/4.11.1",
-      "hashPath": "microsoft.bot.configuration.4.11.1.nupkg.sha512"
+      "sha512": "sha512-NT254tMh3+KIQtVwxizIYtaf+rofc6nLzj2uTOuHgxI/oy7LyhThS38AWGJaHxQaxFGWTHgl0XCj5zuUj70BrA==",
+      "path": "microsoft.bot.configuration/4.12.2",
+      "hashPath": "microsoft.bot.configuration.4.12.2.nupkg.sha512"
     },
-    "Microsoft.Bot.Connector/4.11.1": {
+    "Microsoft.Bot.Connector/4.12.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-fDC6JCpS2WKAYCphT2usTY0XkLIx7NZyCzmvDmo+EcgsJvurAy9q29fc/aM0VbybEqxMK2QyV6wnYsOlOfqO7w==",
-      "path": "microsoft.bot.connector/4.11.1",
-      "hashPath": "microsoft.bot.connector.4.11.1.nupkg.sha512"
+      "sha512": "sha512-JKfU1UMrMZGWMYg6VldR9NwGnkS09DTQ+Wxw1X1L4CE/oLEVSk0jwkIjTG7Lj6wIwbsCjA7LChZdoxh/oHCBNw==",
+      "path": "microsoft.bot.connector/4.12.2",
+      "hashPath": "microsoft.bot.connector.4.12.2.nupkg.sha512"
     },
-    "Microsoft.Bot.Schema/4.11.1": {
+    "Microsoft.Bot.Schema/4.12.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-sb2BL8WbhI+yJXSYXyRPHdNPpn1NsgQB8YMVyawg3kjCH0zjUvRtEs+oynDu81CUbf6bZVW1tS23bRdJDMdgvA==",
-      "path": "microsoft.bot.schema/4.11.1",
-      "hashPath": "microsoft.bot.schema.4.11.1.nupkg.sha512"
+      "sha512": "sha512-SQU6BUkoMWE0ActngziXOdGAIaNtvi7CHJaFYwyNYsO3mxy0ObG5wN/68ZJXW5yfIQW3Fa2X3DGHxvIo2+ZaUA==",
+      "path": "microsoft.bot.schema/4.12.2",
+      "hashPath": "microsoft.bot.schema.4.12.2.nupkg.sha512"
     },
-    "Microsoft.Bot.Streaming/4.11.1": {
+    "Microsoft.Bot.Streaming/4.12.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IhwxE+daMZ7Tdp+vatDZHbfID+A3C+5gdLDB1F/Sa44Mqj9wXnDn4oqx8fb9r5WTeWSFKbAYGEa8yTCsau1jvQ==",
-      "path": "microsoft.bot.streaming/4.11.1",
-      "hashPath": "microsoft.bot.streaming.4.11.1.nupkg.sha512"
+      "sha512": "sha512-wqv6yuJDbg/fKGPyIVVbZ+ItaoottzZbbUuYpPEhlpj1aRF5L8Yn4CowqHFSUoS7UrXyQEeoPdiS2sr1J2v2Nw==",
+      "path": "microsoft.bot.streaming/4.12.2",
+      "hashPath": "microsoft.bot.streaming.4.12.2.nupkg.sha512"
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",
@@ -1655,6 +1680,13 @@
       "sha512": "sha512-JEwwhwbVTEXJu4W4l/FFx7FG9Fh5R8999mZl6qJImjM/LY4DxQsFYzpSkziMdY022n7TQpNUxJlH9bKZc7TqWw==",
       "path": "microsoft.extensions.filesystemglobbing/2.1.0",
       "hashPath": "microsoft.extensions.filesystemglobbing.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Http/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vkSkGa1UIZVlAd18oDhrtoawN/q7fDemJcVpT9+28mP7bP0I8zKLSLRwqF++GmPs/7e0Aqlo6jpZm3P7YYS0ag==",
+      "path": "microsoft.extensions.http/2.1.0",
+      "hashPath": "microsoft.extensions.http.2.1.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Logging/2.1.0": {
       "type": "package",
@@ -2511,6 +2543,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "CCBot.Answer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CCBot.Dialogs/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

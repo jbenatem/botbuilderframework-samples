@@ -33,18 +33,6 @@
         }
       ]
     },
-    //{
-    //  "code": "saludo_inicial",
-    //  "messages": [
-    //    {
-    //      "type": "simple",
-    //      "text": [
-    //        "Hola! soy el asistente virtual de SENASA, ¿en qué puedo ayudarte?",
-    //        "Bienvenido! soy el asistente virtual de SENASA, ¿en qué puedo ayudarte?"
-    //      ]
-    //    }
-    //  ]
-    //},
     {
       "code": "despedida",
       "messages": [

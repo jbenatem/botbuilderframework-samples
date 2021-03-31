@@ -18,7 +18,8 @@ using CCBot.Answer;
 using Microsoft.Bot.Builder.AI.QnA;
 using CCBot.Core.CognitiveServices;
 using Microsoft.Bot.Builder.AI.Luis;
-using CCBot.Dialog.Dialogs;
+using CCBot.Dialogs.MeetingReservation;
+using CCBot.Dialogs;
 
 namespace CCBot
 {
@@ -48,17 +49,17 @@ namespace CCBot
             // Create the Conversation state. (Used by the Dialog system itself.)
             services.AddSingleton<ConversationState>();
 
-            // The MainDialog that will be run by the bot.
             services.AddSingleton<MainDialog>();
 
             // Create the bot as a transient. In this case the ASP Controller is expecting an IBot.
-            services.AddTransient<IBot, EchoBot>();
+            services.AddTransient<IBot, EchoBot<MainDialog>>();
             services.AddTransient<IOrchestratorService, OrchestratorService>();
             services.AddTransient<ILuisService, LuisService>();
             services.AddTransient<IQnAService, QnAService>();
             services.AddTransient<IAnswersService, AnswersService>();
+            services.AddTransient<IDialogService, DialogService>();
             services.AddTransient<IAnswersFactory, AnswersFactory>();
-
+            
             services.AddSingleton(new QnAMakerEndpoint
             {
                 KnowledgeBaseId = Configuration["QnAKnowledgebaseId"],

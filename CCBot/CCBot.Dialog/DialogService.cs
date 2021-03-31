@@ -1,25 +1,16 @@
-﻿using Microsoft.Bot.Builder;
+﻿using CCBot.Domain.Interfaces;
+using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Dialogs;
-using System;
+using System.Threading;
+using System.Threading.Tasks;
 
-namespace CCBot.Dialog
+namespace CCBot.Dialogs
 {
-    public class DialogService<T>
-        where T : Dialog
+    public class DialogService : IDialogService
     {
-        protected readonly Dialog Dialog;
-        protected readonly BotState ConversationState;
-        protected readonly BotState UserState;
-
-        public DialogService(
-            ConversationState conversationState,
-            UserState userState,
-            T dialog
-        )
+        public async Task ProcessDialog(Dialog dialog, BotState conversationState, ITurnContext turnContext, CancellationToken cancellationToken)
         {
-            ConversationState = conversationState;
-            UserState = userState;
-            Dialog = dialog;
+            await dialog.RunAsync(turnContext, conversationState.CreateProperty<DialogState>(nameof(DialogState)), cancellationToken);
         }
     }
 }

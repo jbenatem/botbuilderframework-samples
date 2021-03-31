@@ -1,0 +1,12 @@
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\CCBot\CCBot.Dialog\bin\Debug\netcoreapp3.1\CCBot.Dialogs.deps.json
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\CCBot\CCBot.Dialog\bin\Debug\netcoreapp3.1\CCBot.Dialogs.dll
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\CCBot\CCBot.Dialog\bin\Debug\netcoreapp3.1\CCBot.Dialogs.pdb
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\CCBot\CCBot.Dialog\bin\Debug\netcoreapp3.1\CCBot.Domain.dll
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\CCBot\CCBot.Dialog\bin\Debug\netcoreapp3.1\CCBot.Domain.pdb
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\CCBot\CCBot.Dialog\obj\Debug\netcoreapp3.1\CCBot.Dialogs.csprojAssemblyReference.cache
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\CCBot\CCBot.Dialog\obj\Debug\netcoreapp3.1\CCBot.Dialogs.AssemblyInfoInputs.cache
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\CCBot\CCBot.Dialog\obj\Debug\netcoreapp3.1\CCBot.Dialogs.AssemblyInfo.cs
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\CCBot\CCBot.Dialog\obj\Debug\netcoreapp3.1\CCBot.Dialogs.csproj.CoreCompileInputs.cache
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\CCBot\CCBot.Dialog\obj\Debug\netcoreapp3.1\CCBot.Dialogs.csproj.CopyComplete
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\CCBot\CCBot.Dialog\obj\Debug\netcoreapp3.1\CCBot.Dialogs.dll
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\CCBot\CCBot.Dialog\obj\Debug\netcoreapp3.1\CCBot.Dialogs.pdb
