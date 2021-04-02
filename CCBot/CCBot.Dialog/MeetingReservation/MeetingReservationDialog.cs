@@ -24,24 +24,14 @@ namespace CCBot.Dialogs.MeetingReservation
 
         private async Task<DialogTurnResult> IntroStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
-            var user = (User)stepContext.Options;
-            if (user.Name == null)
-            {
-                var promptMessage = MessageFactory.Text("Ingresa tu nombre");
-                return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);
-            }
-            return await stepContext.NextAsync(user.Name, cancellationToken);
+            var promptMessage = MessageFactory.Text("Ingresa tu nombre");
+            return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);
         }
 
         private async Task<DialogTurnResult> ActStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
-            var user = (User)stepContext.Options;
-            if (user.ContactNumber == null)
-            {
-                var promptMessage = MessageFactory.Text("Ingresa tu número de contacto");
-                return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);
-            }
-            return await stepContext.NextAsync(user.ContactNumber, cancellationToken);
+            var promptMessage = MessageFactory.Text("Ingresa tu número de contacto");
+            return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);
         }
 
         private async Task<DialogTurnResult> FinalStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)

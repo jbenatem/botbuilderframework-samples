@@ -18,7 +18,7 @@ namespace CCBot.Dialogs
             AddDialog(new MeetingReservationDialog());
             AddDialog(new WaterfallDialog(nameof(WaterfallDialog), new WaterfallStep[]
             {
-                DerivateStepAsync,
+                DerivateStepAsync
             }));
 
             // The initial child Dialog to run.
@@ -27,10 +27,7 @@ namespace CCBot.Dialogs
 
         private async Task<DialogTurnResult> DerivateStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
-            User user = new User();
-            await stepContext.Context.SendActivityAsync(MessageFactory.Text("Derivar a diálogo X"));
-            await stepContext.BeginDialogAsync(nameof(MeetingReservationDialog), user, cancellationToken : cancellationToken);
-            return await stepContext.EndDialogAsync(cancellationToken: cancellationToken);
+            return await stepContext.BeginDialogAsync(nameof(MeetingReservationDialog), cancellationToken : cancellationToken);
         }
     }
 }
