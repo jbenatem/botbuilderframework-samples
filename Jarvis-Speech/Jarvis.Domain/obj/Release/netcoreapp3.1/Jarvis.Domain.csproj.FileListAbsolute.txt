@@ -1,0 +1,9 @@
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Domain\bin\Release\netcoreapp3.1\Jarvis.Domain.deps.json
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Domain\bin\Release\netcoreapp3.1\Jarvis.Domain.dll
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Domain\bin\Release\netcoreapp3.1\Jarvis.Domain.pdb
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Domain\obj\Release\netcoreapp3.1\Jarvis.Domain.csprojAssemblyReference.cache
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Domain\obj\Release\netcoreapp3.1\Jarvis.Domain.AssemblyInfoInputs.cache
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Domain\obj\Release\netcoreapp3.1\Jarvis.Domain.AssemblyInfo.cs
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Domain\obj\Release\netcoreapp3.1\Jarvis.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Domain\obj\Release\netcoreapp3.1\Jarvis.Domain.dll
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Domain\obj\Release\netcoreapp3.1\Jarvis.Domain.pdb

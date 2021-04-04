@@ -1,0 +1,13 @@
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Answers\bin\Release\netcoreapp3.1\Resources\Responses\WebChatResponses.json
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Answers\bin\Release\netcoreapp3.1\Jarvis.Answers.deps.json
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Answers\bin\Release\netcoreapp3.1\Jarvis.Answers.dll
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Answers\bin\Release\netcoreapp3.1\Jarvis.Answers.pdb
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Answers\bin\Release\netcoreapp3.1\Jarvis.Domain.dll
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Answers\bin\Release\netcoreapp3.1\Jarvis.Domain.pdb
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Answers\obj\Release\netcoreapp3.1\Jarvis.Answers.csprojAssemblyReference.cache
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Answers\obj\Release\netcoreapp3.1\Jarvis.Answers.AssemblyInfoInputs.cache
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Answers\obj\Release\netcoreapp3.1\Jarvis.Answers.AssemblyInfo.cs
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Answers\obj\Release\netcoreapp3.1\Jarvis.Answers.csproj.CoreCompileInputs.cache
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Answers\obj\Release\netcoreapp3.1\Jarvis.Answers.csproj.CopyComplete
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Answers\obj\Release\netcoreapp3.1\Jarvis.Answers.dll
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Answers\obj\Release\netcoreapp3.1\Jarvis.Answers.pdb

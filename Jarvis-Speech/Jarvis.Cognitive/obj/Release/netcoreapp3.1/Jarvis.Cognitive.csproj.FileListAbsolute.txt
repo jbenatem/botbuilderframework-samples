@@ -1,0 +1,12 @@
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Cognitive\bin\Release\netcoreapp3.1\Jarvis.Cognitive.deps.json
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Cognitive\bin\Release\netcoreapp3.1\Jarvis.Cognitive.dll
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Cognitive\bin\Release\netcoreapp3.1\Jarvis.Cognitive.pdb
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Cognitive\bin\Release\netcoreapp3.1\Jarvis.Domain.dll
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Cognitive\bin\Release\netcoreapp3.1\Jarvis.Domain.pdb
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Cognitive\obj\Release\netcoreapp3.1\Jarvis.Cognitive.csprojAssemblyReference.cache
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Cognitive\obj\Release\netcoreapp3.1\Jarvis.Cognitive.AssemblyInfoInputs.cache
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Cognitive\obj\Release\netcoreapp3.1\Jarvis.Cognitive.AssemblyInfo.cs
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Cognitive\obj\Release\netcoreapp3.1\Jarvis.Cognitive.csproj.CoreCompileInputs.cache
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Cognitive\obj\Release\netcoreapp3.1\Jarvis.Cognitive.csproj.CopyComplete
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Cognitive\obj\Release\netcoreapp3.1\Jarvis.Cognitive.dll
+C:\Users\Juan\OneDrive\Proyectos\C#\botbuilderframework-samples\Jarvis-Speech\Jarvis.Cognitive\obj\Release\netcoreapp3.1\Jarvis.Cognitive.pdb
